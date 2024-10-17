@@ -18,7 +18,6 @@ const AdminScope = () => {
             <h5 key={article.id}>
               <Link to={`/edit/${article.id}`}> Edit</Link>
             </h5>
-            <h5>Delete</h5>
           </li>
         ))}
       </ul>
